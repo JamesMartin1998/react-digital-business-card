@@ -1,0 +1,163 @@
+* {
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    height: 780px;
+    width: 317px;
+    background-color: #1A1B21;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Info Component */
+
+.Info--container {
+    border-radius: 15px 15px 0 0;
+    font-style: normal;
+}
+
+.Info--container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.Info--container h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.Info--container h2 {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.Info--container a {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15px!important;
+    text-align: center;
+    color: #F5F5F5;
+    display: block!important;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    }
+
+.Info--container a:hover {
+    color: #F3BF99;
+}
+
+.Info--links-container a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    width: 115px;
+    height: 34px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+
+.Info--links-container a:first-of-type {
+    background-color: #FFFFFF;
+    margin-left: 35px;
+    margin-right: 17px;
+    color: #374151;
+}
+
+.Info--links-container a:last-of-type {
+    background-color: #5093E2;
+    margin-right: 35px;
+}
+
+.Info--container a, .Info--links-container a {
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.Info--links-container a:hover {
+    background-color: #b52727;
+}
+
+
+a i {
+    margin-right: 9px;
+}
+
+.Info--links-container a:first-of-type i {
+    color: #374151;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* About Component */
+
+.About--container {
+    margin-top: 33px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.Interests--container {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+}
+
+.About--container h2, .Interests--container h2 {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+.About--container p, .Interests--container p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15.36px;
+    margin-top: 5px;
+}
+
+.Footer--container {
+    position: absolute;
+    bottom: 0;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Footer--container a {
+    line-height: 64px;
+}
+
+.Footer--container i {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
